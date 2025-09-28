@@ -1,0 +1,42 @@
+# fastapi==0.104.1
+# uvicorn[standard]==0.24.0
+# python-dotenv==1.0.0
+# pydantic==2.5.0
+# faiss-cpu==1.7.4
+# numpy==1.24.3
+# pandas==2.1.4
+# openai==1.3.7
+# python-multipart==0.0.6
+# cors==1.0.1
+# fastapi-cors==0.0.6
+# gunicorn==21.2.0
+# PyPDF2==3.0.1
+# python-docx==1.1.0
+# mammoth==1.6.0
+
+# LlamaIndex-based Ask Krishna Requirements
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# LlamaIndex for RAG
+llama-index==0.9.7
+llama-index-llms-openai==0.1.5
+llama-index-embeddings-openai==0.1.6
+llama-index-embeddings-huggingface==0.1.4
+
+# Document processing
+PyPDF2==3.0.1
+pypdf==3.17.4
+
+# Optional for better performance
+sentence-transformers==2.2.2
+
+# API and web
+openai==1.3.7
+requests==2.31.0
+python-multipart==0.0.6
+
+# CORS and deployment
+gunicorn==21.2.0
